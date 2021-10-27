@@ -7,7 +7,7 @@ unsigned char x;
 unsigned int i,j;
 for(x=0;x<5;x++)
 chksum=chksum+mydata[x];
-if(chksum==0)
+if(chksum!=0)
 {
 a:
 P0=255;
